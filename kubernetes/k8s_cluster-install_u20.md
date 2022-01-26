@@ -3,18 +3,18 @@ Berikut adalah cara instalasi Kubernetes cluster di OS __Ubuntu 20.04 LTS__.
 
 Instalasi Kubernetes cluster dengan 1 master node dan 1 worker node.
 
-## Assumptions
+## List VM
 |Role|FQDN|IP|OS|RAM|CPU|
 |----|----|----|----|----|----|
 |Master|kmaster.example.com|172.16.16.100|Ubuntu 20.04|2G|2|
 |Worker|kworker.example.com|172.16.16.101|Ubuntu 20.04|1G|1|
 
-## On Host Machine, Kmaster and Kworker
+## Untuk diterapkan pada Host Machine, Kmaster and Kworker
 ##### Login as `root` user
 ```
 sudo su -
 ```
-Perform all the commands as root user unless otherwise specified
+Untuk mengeksekusi seluruh perintah sebagai root
 ##### Disable Firewall
 ```
 ufw disable
